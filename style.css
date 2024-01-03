@@ -17,6 +17,7 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2rem;
   width: 60%;
   height: 500px;
   margin: 3rem auto;
@@ -30,7 +31,49 @@ form {
   gap: 0.55rem;
 }
 h4 {
-  
 }
 input {
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: large;
+  border-radius: 4px;
+  color: #e5e5e5;
+  border: 1px solid #dddcddcc;
+  border-bottom-width: 3px;
+}
+.terms {
+  display: flex;
+  gap: 1rem;
+}
+.register {
+  padding: 1rem;
+  background-color: #071b55;
+  border: 1px solid #041953;
+  color: #fff;
+  font-size: large;
+  border-radius: 5px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.login {
+  border: none;
+  font-size: large;
+  color: #071b55;
+}
+.underline {
+  border-bottom: 2px solid blue;
+}
+.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 800;
 }
